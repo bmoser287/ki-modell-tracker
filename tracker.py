@@ -2,40 +2,59 @@ import json
 import time
 import requests
 
-MODELS = [
-    # 💰 Bezahlmodelle
-    {"name": "GPT-4o", "kategorie": "bezahlmodell", "input_preis": 2.50, "output_preis": 10.00, "test_api": "https://httpbin.org/delay/0.3"},
-    {"name": "Claude 3.5 Sonnet", "kategorie": "bezahlmodell", "input_preis": 3.00, "output_preis": 15.00, "test_api": "https://httpbin.org/delay/0.4"},
-    {"name": "DeepSeek-V3", "kategorie": "bezahlmodell", "input_preis": 0.27, "output_preis": 1.10, "test_api": "https://httpbin.org/delay/0.2"},
-    {"name": "Gemini 1.5 Pro", "kategorie": "bezahlmodell", "input_preis": 1.25, "output_preis": 5.00, "test_api": "https://httpbin.org/delay/0.35"},
-    
-    # 🎁 Kostenlose / Open-Source Modelle
-    {"name": "Llama 3.3 70B (Groq)", "kategorie": "kostenlos", "input_preis": 0.00, "output_preis": 0.00, "test_api": "https://httpbin.org/delay/0.15"},
-    {"name": "DeepSeek-R1 (Distill)", "kategorie": "kostenlos", "input_preis": 0.00, "output_preis": 0.00, "test_api": "https://httpbin.org/delay/0.18"},
-    {"name": "Qwen 2.5 72B", "kategorie": "kostenlos", "input_preis": 0.00, "output_preis": 0.00, "test_api": "https://httpbin.org/delay/0.25"}
-]
+# 1. Öffentliche OpenRouter API abfragen (Liefert tagesaktuelle Modell- & Preisdaten)
+API_URL = "https://openrouter.ai/api/v1/models"
+
+print("Hole tagesaktuelle KI-Modellliste von OpenRouter...")
+response = requests.get(API_URL, timeout=10)
+data = response.json().get("data", [])
+
+# Liste relevanter Frontier-Anbieter/Modellfamilien, die wir im Dashboard haben wollen
+SEARCH_KEYWORDS = ["gpt-4", "claude-3", "gemini", "deepseek", "llama-3", "qwen"]
 
 ergebnisse = []
 
-for m in MODELS:
-    start = time.time()
-    try:
-        requests.get(m["test_api"], timeout=5)
-        latenz_ms = int((time.time() - start) * 1000)
-    except Exception:
-        latenz_ms = 999
+for model in data:
+    model_id = model.get("id", "").lower()
+    model_name = model.get("name", "")
+    pricing = model.get("pricing", {})
+    
+    # Prpfen, ob das Modell zu den relevanten Frontier-Modellen gehört
+    if any(keyword in model_id for keyword in SEARCH_KEYWORDS):
+        
+        # Preise pro Token auslesen und auf 1 Mio. Tokens umrechnen ($ / 1M Tokens)
+        try:
+            prompt_price = float(pricing.get("prompt", 0)) * 1_000_000
+            completion_price = float(pricing.get("completion", 0)) * 1_000_000
+        except (ValueError, TypeError):
+            prompt_price, completion_price = 0.0, 0.0
 
-    ergebnisse.append({
-        "name": m["name"],
-        "kategorie": m["kategorie"],
-        "input_preis": m["input_preis"],
-        "output_preis": m["output_preis"],
-        "latenz_ms": latenz_ms
-    })
+        # Kategorisieren: Kostenlos vs. Bezahlmodell
+        kategorie = "kostenlos" if (prompt_price == 0 and completion_price == 0) else "bezahlmodell"
 
+        # Latenz-Messung (Reaktionszeit der Schnittstelle simulieren/prüfen)
+        start = time.time()
+        try:
+            requests.get("https://httpbin.org/delay/0.1", timeout=3)
+            latenz_ms = int((time.time() - start) * 1000)
+        except Exception:
+            latenz_ms = 999
+
+        ergebnisse.append({
+            "id": model.get("id"),
+            "name": model_name,
+            "kategorie": kategorie,
+            "input_preis": round(prompt_price, 3),
+            "output_preis": round(completion_price, 3),
+            "latenz_ms": latenz_ms
+        })
+
+# Nach Schnelligkeit (Latenz) aufsteigend sortieren
 ergebnisse.sort(key=lambda x: x["latenz_ms"])
 
+# Ergebnisse begrenzen (z. B. die besten/bekanntesten Ergebnisse speichern)
+# Wir speichern das ganze Paket ab, damit die Webseite dynamisch darauf zugreifen kann
 with open("modelle.json", "w", encoding="utf-8") as f:
     json.dump(ergebnisse, f, ensure_ascii=False, indent=2)
 
-print("Daten erfolgreich abgerufen und sortiert gespeichert!")
+print(f"Erfolgreich {len(ergebnisse)} Modelle dynamisch geladen und in modelle.json gespeichert!")
