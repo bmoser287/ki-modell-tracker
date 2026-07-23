@@ -1,51 +1,11 @@
 [
   {
-    "id": "qwen/qwen3-next-80b-a3b-thinking",
-    "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "id": "meta-llama/llama-guard-4-12b",
+    "name": "Meta: Llama Guard 4 12B",
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 219
-  },
-  {
-    "id": "qwen/qwen3-vl-30b-a3b-thinking",
-    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 220
-  },
-  {
-    "id": "qwen/qwen3-30b-a3b-instruct-2507",
-    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 220
-  },
-  {
-    "id": "qwen/qwen3-8b",
-    "name": "Qwen: Qwen3 8B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 220
-  },
-  {
-    "id": "mistralai/mistral-small-3.1-24b-instruct",
-    "name": "Mistral: Mistral Small 3.1 24B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 220
-  },
-  {
-    "id": "mistralai/mistral-nemo",
-    "name": "Mistral: Mistral Nemo",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 220
+    "latenz_ms": 127
   },
   {
     "id": "openai/gpt-4o",
@@ -53,535 +13,7 @@
     "kategorie": "bezahlmodell",
     "input_preis": 2.5,
     "output_preis": 10.0,
-    "latenz_ms": 220
-  },
-  {
-    "id": "mistralai/mistral-large",
-    "name": "Mistral Large",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 220
-  },
-  {
-    "id": "qwen/qwen3.5-397b-a17b",
-    "name": "Qwen: Qwen3.5 397B A17B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 221
-  },
-  {
-    "id": "mistralai/ministral-8b-2512",
-    "name": "Mistral: Ministral 3 8B 2512",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 221
-  },
-  {
-    "id": "deepseek/deepseek-v3.2",
-    "name": "DeepSeek: DeepSeek V3.2",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 221
-  },
-  {
-    "id": "openai/gpt-4.1",
-    "name": "OpenAI: GPT-4.1",
-    "kategorie": "bezahlmodell",
-    "input_preis": 2.0,
-    "output_preis": 8.0,
-    "latenz_ms": 221
-  },
-  {
-    "id": "qwen/qwen-2.5-coder-32b-instruct",
-    "name": "Qwen2.5 Coder 32B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 221
-  },
-  {
-    "id": "meta-llama/llama-3.1-70b-instruct",
-    "name": "Meta: Llama 3.1 70B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 221
-  },
-  {
-    "id": "google/gemini-2.5-pro-preview",
-    "name": "Google: Gemini 2.5 Pro Preview 06-05",
-    "kategorie": "bezahlmodell",
-    "input_preis": 1.25,
-    "output_preis": 10.0,
-    "latenz_ms": 222
-  },
-  {
-    "id": "google/gemini-3.1-flash-lite-preview",
-    "name": "Google: Gemini 3.1 Flash Lite Preview",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.25,
-    "output_preis": 1.5,
-    "latenz_ms": 223
-  },
-  {
-    "id": "qwen/qwen3-vl-235b-a22b-thinking",
-    "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 223
-  },
-  {
-    "id": "qwen/qwen3-coder-flash",
-    "name": "Qwen: Qwen3 Coder Flash",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 223
-  },
-  {
-    "id": "google/gemini-2.5-pro-preview-05-06",
-    "name": "Google: Gemini 2.5 Pro Preview 05-06",
-    "kategorie": "bezahlmodell",
-    "input_preis": 1.25,
-    "output_preis": 10.0,
-    "latenz_ms": 223
-  },
-  {
-    "id": "mistralai/devstral-2512",
-    "name": "Mistral: Devstral 2 2512",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 237
-  },
-  {
-    "id": "qwen/qwen3-30b-a3b-thinking-2507",
-    "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 237
-  },
-  {
-    "id": "qwen/qwen3.5-27b",
-    "name": "Qwen: Qwen3.5-27B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "google/gemini-3-flash-preview",
-    "name": "Google: Gemini 3 Flash Preview",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.5,
-    "output_preis": 3.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "qwen/qwen3-vl-8b-thinking",
-    "name": "Qwen: Qwen3 VL 8B Thinking",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "deepseek/deepseek-chat-v3.1",
-    "name": "DeepSeek: DeepSeek V3.1",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "qwen/qwen3-coder",
-    "name": "Qwen: Qwen3 Coder 480B A35B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "deepseek/deepseek-r1-0528",
-    "name": "DeepSeek: R1 0528",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "meta-llama/llama-guard-4-12b",
-    "name": "Meta: Llama Guard 4 12B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "qwen/qwen3-235b-a22b",
-    "name": "Qwen: Qwen3 235B A22B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "meta-llama/llama-4-scout",
-    "name": "Meta: Llama 4 Scout",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "openai/gpt-4o-search-preview",
-    "name": "OpenAI: GPT-4o Search Preview",
-    "kategorie": "bezahlmodell",
-    "input_preis": 2.5,
-    "output_preis": 10.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "deepseek/deepseek-r1-distill-llama-70b",
-    "name": "DeepSeek: R1 Distill Llama 70B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "deepseek/deepseek-r1",
-    "name": "DeepSeek: R1",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "deepseek/deepseek-chat",
-    "name": "DeepSeek: DeepSeek V3",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "openai/gpt-4-turbo",
-    "name": "OpenAI: GPT-4 Turbo",
-    "kategorie": "bezahlmodell",
-    "input_preis": 10.0,
-    "output_preis": 30.0,
-    "latenz_ms": 238
-  },
-  {
-    "id": "google/gemini-3.1-pro-preview",
-    "name": "Google: Gemini 3.1 Pro Preview",
-    "kategorie": "bezahlmodell",
-    "input_preis": 2.0,
-    "output_preis": 12.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "qwen/qwen3-max-thinking",
-    "name": "Qwen: Qwen3 Max Thinking",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "qwen/qwen3-vl-8b-instruct",
-    "name": "Qwen: Qwen3 VL 8B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "qwen/qwen-plus-2025-07-28",
-    "name": "Qwen: Qwen Plus 0728",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "qwen/qwen3-coder-30b-a3b-instruct",
-    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "qwen/qwen3-235b-a22b-2507",
-    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
-    "name": "Venice: Uncensored",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "mistralai/mistral-small-3.2-24b-instruct",
-    "name": "Mistral: Mistral Small 3.2 24B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "openai/gpt-4.1-mini",
-    "name": "OpenAI: GPT-4.1 Mini",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.4,
-    "output_preis": 1.6,
-    "latenz_ms": 239
-  },
-  {
-    "id": "microsoft/phi-4",
-    "name": "Microsoft: Phi 4",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.07,
-    "output_preis": 0.14,
-    "latenz_ms": 239
-  },
-  {
-    "id": "openai/gpt-4o-2024-05-13",
-    "name": "OpenAI: GPT-4o (2024-05-13)",
-    "kategorie": "bezahlmodell",
-    "input_preis": 5.0,
-    "output_preis": 15.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "anthropic/claude-3-haiku",
-    "name": "Anthropic: Claude 3 Haiku",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.25,
-    "output_preis": 1.25,
-    "latenz_ms": 239
-  },
-  {
-    "id": "openai/gpt-4-turbo-preview",
-    "name": "OpenAI: GPT-4 Turbo Preview",
-    "kategorie": "bezahlmodell",
-    "input_preis": 10.0,
-    "output_preis": 30.0,
-    "latenz_ms": 239
-  },
-  {
-    "id": "google/gemini-3.1-flash-image-preview",
-    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.5,
-    "output_preis": 3.0,
-    "latenz_ms": 240
-  },
-  {
-    "id": "google/gemini-3-pro-image-preview",
-    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
-    "kategorie": "bezahlmodell",
-    "input_preis": 2.0,
-    "output_preis": 12.0,
-    "latenz_ms": 240
-  },
-  {
-    "id": "qwen/qwen3-next-80b-a3b-instruct",
-    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 240
-  },
-  {
-    "id": "qwen/qwen3-14b",
-    "name": "Qwen: Qwen3 14B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 240
-  },
-  {
-    "id": "qwen/qwen-plus",
-    "name": "Qwen: Qwen-Plus",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 240
-  },
-  {
-    "id": "qwen/qwen-2.5-7b-instruct",
-    "name": "Qwen: Qwen2.5 7B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 240
-  },
-  {
-    "id": "meta-llama/llama-3.1-8b-instruct",
-    "name": "Meta: Llama 3.1 8B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 240
-  },
-  {
-    "id": "qwen/qwen3.5-122b-a10b",
-    "name": "Qwen: Qwen3.5-122B-A10B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "qwen/qwen3-vl-30b-a3b-instruct",
-    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "qwen/qwen3-max",
-    "name": "Qwen: Qwen3 Max",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "deepseek/deepseek-v3.1-terminus",
-    "name": "DeepSeek: DeepSeek V3.1 Terminus",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "mistralai/codestral-2508",
-    "name": "Mistral: Codestral 2508",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "google/gemini-2.5-flash-lite",
-    "name": "Google: Gemini 2.5 Flash Lite",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.1,
-    "output_preis": 0.4,
-    "latenz_ms": 241
-  },
-  {
-    "id": "mistralai/mistral-medium-3",
-    "name": "Mistral: Mistral Medium 3",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "qwen/qwen3-30b-a3b",
-    "name": "Qwen: Qwen3 30B A3B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "meta-llama/llama-4-maverick",
-    "name": "Meta: Llama 4 Maverick",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "deepseek/deepseek-chat-v3-0324",
-    "name": "DeepSeek: DeepSeek V3 0324",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "qwen/qwen2.5-vl-72b-instruct",
-    "name": "Qwen: Qwen2.5 VL 72B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "mistralai/mistral-large-2407",
-    "name": "Mistral Large 2407",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "meta-llama/llama-3.2-1b-instruct",
-    "name": "Meta: Llama 3.2 1B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "nousresearch/hermes-3-llama-3.1-70b",
-    "name": "Nous: Hermes 3 70B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "openai/gpt-4o-mini",
-    "name": "OpenAI: GPT-4o-mini",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.15,
-    "output_preis": 0.6,
-    "latenz_ms": 241
-  },
-  {
-    "id": "mistralai/mixtral-8x22b-instruct",
-    "name": "Mistral: Mixtral 8x22B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 241
-  },
-  {
-    "id": "aion-labs/aion-rp-llama-3.1-8b",
-    "name": "AionLabs: Aion-RP 1.0 (8B)",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 242
-  },
-  {
-    "id": "meta-llama/llama-3.3-70b-instruct",
-    "name": "Meta: Llama 3.3 70B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 242
+    "latenz_ms": 127
   },
   {
     "id": "qwen/qwen-2.5-72b-instruct",
@@ -589,215 +21,23 @@
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 242
+    "latenz_ms": 128
   },
   {
-    "id": "nousresearch/hermes-3-llama-3.1-405b",
-    "name": "Nous: Hermes 3 405B Instruct",
+    "id": "mistralai/mistral-large",
+    "name": "Mistral Large",
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 242
+    "latenz_ms": 128
   },
   {
-    "id": "qwen/qwen3.5-9b",
-    "name": "Qwen: Qwen3.5-9B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 243
-  },
-  {
-    "id": "qwen/qwen3.5-flash-02-23",
-    "name": "Qwen: Qwen3.5-Flash",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 243
-  },
-  {
-    "id": "mistralai/voxtral-small-24b-2507",
-    "name": "Mistral: Voxtral Small 24B 2507",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 243
-  },
-  {
-    "id": "qwen/qwen3-vl-32b-instruct",
-    "name": "Qwen: Qwen3 VL 32B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 243
-  },
-  {
-    "id": "qwen/qwen3-vl-235b-a22b-instruct",
-    "name": "Qwen: Qwen3 VL 235B A22B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 243
-  },
-  {
-    "id": "qwen/qwen3-coder-plus",
-    "name": "Qwen: Qwen3 Coder Plus",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 243
-  },
-  {
-    "id": "mistralai/mistral-small-24b-instruct-2501",
-    "name": "Mistral: Mistral Small 3",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 243
-  },
-  {
-    "id": "openai/gpt-4o-2024-08-06",
-    "name": "OpenAI: GPT-4o (2024-08-06)",
-    "kategorie": "bezahlmodell",
-    "input_preis": 2.5,
-    "output_preis": 10.0,
-    "latenz_ms": 243
-  },
-  {
-    "id": "qwen/qwen3-coder-next",
-    "name": "Qwen: Qwen3 Coder Next",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 245
-  },
-  {
-    "id": "qwen/qwen3-32b",
-    "name": "Qwen: Qwen3 32B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 245
-  },
-  {
-    "id": "meta-llama/llama-3.2-3b-instruct",
-    "name": "Meta: Llama 3.2 3B Instruct",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 245
-  },
-  {
-    "id": "openai/gpt-4",
-    "name": "OpenAI: GPT-4",
-    "kategorie": "bezahlmodell",
-    "input_preis": 30.0,
-    "output_preis": 60.0,
-    "latenz_ms": 246
-  },
-  {
-    "id": "openai/gpt-4.1-nano",
-    "name": "OpenAI: GPT-4.1 Nano",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.1,
-    "output_preis": 0.4,
-    "latenz_ms": 252
-  },
-  {
-    "id": "google/gemini-3.1-pro-preview-customtools",
-    "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
-    "kategorie": "bezahlmodell",
-    "input_preis": 2.0,
-    "output_preis": 12.0,
-    "latenz_ms": 291
-  },
-  {
-    "id": "qwen/qwen3.6-plus",
-    "name": "Qwen: Qwen3.6 Plus",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 292
-  },
-  {
-    "id": "openai/gpt-4o-mini-2024-07-18",
-    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.15,
-    "output_preis": 0.6,
-    "latenz_ms": 296
-  },
-  {
-    "id": "mistralai/mistral-large-2512",
-    "name": "Mistral: Mistral Large 3 2512",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 307
-  },
-  {
-    "id": "qwen/qwen3.5-plus-02-15",
-    "name": "Qwen: Qwen3.5 Plus 2026-02-15",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 314
-  },
-  {
-    "id": "google/gemini-2.5-pro",
-    "name": "Google: Gemini 2.5 Pro",
+    "id": "google/gemini-2.5-pro-preview-05-06",
+    "name": "Google: Gemini 2.5 Pro Preview 05-06",
     "kategorie": "bezahlmodell",
     "input_preis": 1.25,
     "output_preis": 10.0,
-    "latenz_ms": 316
-  },
-  {
-    "id": "google/gemini-2.5-flash-image",
-    "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.3,
-    "output_preis": 2.5,
-    "latenz_ms": 317
-  },
-  {
-    "id": "google/gemini-2.5-flash",
-    "name": "Google: Gemini 2.5 Flash",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.3,
-    "output_preis": 2.5,
-    "latenz_ms": 333
-  },
-  {
-    "id": "qwen/qwen-plus-2025-07-28:thinking",
-    "name": "Qwen: Qwen Plus 0728 (thinking)",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 336
-  },
-  {
-    "id": "qwen/qwen3.5-35b-a3b",
-    "name": "Qwen: Qwen3.5-35B-A3B",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 338
-  },
-  {
-    "id": "openai/gpt-4o-2024-11-20",
-    "name": "OpenAI: GPT-4o (2024-11-20)",
-    "kategorie": "bezahlmodell",
-    "input_preis": 2.5,
-    "output_preis": 10.0,
-    "latenz_ms": 391
-  },
-  {
-    "id": "mistralai/mistral-small-2603",
-    "name": "Mistral: Mistral Small 4",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 396
+    "latenz_ms": 129
   },
   {
     "id": "deepseek/deepseek-v3.2-exp",
@@ -805,39 +45,359 @@
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 403
+    "latenz_ms": 130
   },
   {
-    "id": "mistralai/mistral-saba",
-    "name": "Mistral: Saba",
+    "id": "qwen/qwen3-coder",
+    "name": "Qwen: Qwen3 Coder 480B A35B",
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 407
+    "latenz_ms": 131
   },
   {
-    "id": "openai/gpt-4o-mini-search-preview",
-    "name": "OpenAI: GPT-4o-mini Search Preview",
+    "id": "openai/gpt-4.1-nano",
+    "name": "OpenAI: GPT-4.1 Nano",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.1,
+    "output_preis": 0.4,
+    "latenz_ms": 131
+  },
+  {
+    "id": "google/gemini-3-pro-image-preview",
+    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 12.0,
+    "latenz_ms": 132
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b-instruct-2507",
+    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 132
+  },
+  {
+    "id": "openai/gpt-4o-2024-05-13",
+    "name": "OpenAI: GPT-4o (2024-05-13)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 5.0,
+    "output_preis": 15.0,
+    "latenz_ms": 132
+  },
+  {
+    "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+    "name": "Venice: Uncensored",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 133
+  },
+  {
+    "id": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 133
+  },
+  {
+    "id": "meta-llama/llama-4-scout",
+    "name": "Meta: Llama 4 Scout",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 133
+  },
+  {
+    "id": "google/gemini-2.5-flash-image",
+    "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.3,
+    "output_preis": 2.5,
+    "latenz_ms": 134
+  },
+  {
+    "id": "qwen/qwen3-vl-235b-a22b-thinking",
+    "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 134
+  },
+  {
+    "id": "deepseek/deepseek-v3.1-terminus",
+    "name": "DeepSeek: DeepSeek V3.1 Terminus",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 134
+  },
+  {
+    "id": "qwen/qwen3-vl-8b-instruct",
+    "name": "Qwen: Qwen3 VL 8B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 135
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b",
+    "name": "Qwen: Qwen3 235B A22B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 135
+  },
+  {
+    "id": "mistralai/mistral-nemo",
+    "name": "Mistral: Mistral Nemo",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 135
+  },
+  {
+    "id": "anthropic/claude-3-haiku",
+    "name": "Anthropic: Claude 3 Haiku",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.25,
+    "output_preis": 1.25,
+    "latenz_ms": 135
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3-0324",
+    "name": "DeepSeek: DeepSeek V3 0324",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 136
+  },
+  {
+    "id": "qwen/qwen2.5-vl-72b-instruct",
+    "name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 136
+  },
+  {
+    "id": "openai/gpt-4o-2024-08-06",
+    "name": "OpenAI: GPT-4o (2024-08-06)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.5,
+    "output_preis": 10.0,
+    "latenz_ms": 136
+  },
+  {
+    "id": "mistralai/mistral-medium-3",
+    "name": "Mistral: Mistral Medium 3",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 139
+  },
+  {
+    "id": "microsoft/phi-4",
+    "name": "Microsoft: Phi 4",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.07,
+    "output_preis": 0.14,
+    "latenz_ms": 139
+  },
+  {
+    "id": "nousresearch/hermes-3-llama-3.1-405b",
+    "name": "Nous: Hermes 3 405B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 140
+  },
+  {
+    "id": "openai/gpt-4o-mini",
+    "name": "OpenAI: GPT-4o-mini",
     "kategorie": "bezahlmodell",
     "input_preis": 0.15,
     "output_preis": 0.6,
-    "latenz_ms": 428
+    "latenz_ms": 142
   },
   {
-    "id": "mistralai/ministral-3b-2512",
-    "name": "Mistral: Ministral 3 3B 2512",
+    "id": "mistralai/mistral-small-3.1-24b-instruct",
+    "name": "Mistral: Mistral Small 3.1 24B",
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 458
+    "latenz_ms": 143
   },
   {
-    "id": "mistralai/ministral-14b-2512",
-    "name": "Mistral: Ministral 3 14B 2512",
+    "id": "openai/gpt-4-turbo",
+    "name": "OpenAI: GPT-4 Turbo",
+    "kategorie": "bezahlmodell",
+    "input_preis": 10.0,
+    "output_preis": 30.0,
+    "latenz_ms": 143
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3.1",
+    "name": "DeepSeek: DeepSeek V3.1",
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 459
+    "latenz_ms": 145
+  },
+  {
+    "id": "openai/gpt-4o-2024-11-20",
+    "name": "OpenAI: GPT-4o (2024-11-20)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.5,
+    "output_preis": 10.0,
+    "latenz_ms": 146
+  },
+  {
+    "id": "qwen/qwen3-next-80b-a3b-thinking",
+    "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 150
+  },
+  {
+    "id": "openai/gpt-4",
+    "name": "OpenAI: GPT-4",
+    "kategorie": "bezahlmodell",
+    "input_preis": 30.0,
+    "output_preis": 60.0,
+    "latenz_ms": 150
+  },
+  {
+    "id": "qwen/qwen3-coder-flash",
+    "name": "Qwen: Qwen3 Coder Flash",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 156
+  },
+  {
+    "id": "qwen/qwen-plus-2025-07-28",
+    "name": "Qwen: Qwen Plus 0728",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 156
+  },
+  {
+    "id": "qwen/qwen-2.5-7b-instruct",
+    "name": "Qwen: Qwen2.5 7B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 156
+  },
+  {
+    "id": "qwen/qwen3-coder-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 157
+  },
+  {
+    "id": "openai/gpt-4o-search-preview",
+    "name": "OpenAI: GPT-4o Search Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.5,
+    "output_preis": 10.0,
+    "latenz_ms": 157
+  },
+  {
+    "id": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 157
+  },
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 157
+  },
+  {
+    "id": "google/gemini-2.5-flash-lite",
+    "name": "Google: Gemini 2.5 Flash Lite",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.1,
+    "output_preis": 0.4,
+    "latenz_ms": 158
+  },
+  {
+    "id": "mistralai/mistral-small-3.2-24b-instruct",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 158
+  },
+  {
+    "id": "meta-llama/llama-3.2-1b-instruct",
+    "name": "Meta: Llama 3.2 1B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 158
+  },
+  {
+    "id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 159
+  },
+  {
+    "id": "mistralai/codestral-2508",
+    "name": "Mistral: Codestral 2508",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 159
+  },
+  {
+    "id": "qwen/qwen3-8b",
+    "name": "Qwen: Qwen3 8B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 159
+  },
+  {
+    "id": "qwen/qwen3-max",
+    "name": "Qwen: Qwen3 Max",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 162
+  },
+  {
+    "id": "aion-labs/aion-rp-llama-3.1-8b",
+    "name": "AionLabs: Aion-RP 1.0 (8B)",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 162
+  },
+  {
+    "id": "nousresearch/hermes-3-llama-3.1-70b",
+    "name": "Nous: Hermes 3 70B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 163
   },
   {
     "id": "mistralai/mistral-medium-3.1",
@@ -845,7 +405,271 @@
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 460
+    "latenz_ms": 164
+  },
+  {
+    "id": "deepseek/deepseek-r1-distill-llama-70b",
+    "name": "DeepSeek: R1 Distill Llama 70B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 164
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b-thinking-2507",
+    "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 165
+  },
+  {
+    "id": "qwen/qwen3-32b",
+    "name": "Qwen: Qwen3 32B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 165
+  },
+  {
+    "id": "qwen/qwen-2.5-coder-32b-instruct",
+    "name": "Qwen2.5 Coder 32B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 165
+  },
+  {
+    "id": "meta-llama/llama-3.1-8b-instruct",
+    "name": "Meta: Llama 3.1 8B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 165
+  },
+  {
+    "id": "deepseek/deepseek-r1",
+    "name": "DeepSeek: R1",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 166
+  },
+  {
+    "id": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 167
+  },
+  {
+    "id": "mistralai/mistral-small-24b-instruct-2501",
+    "name": "Mistral: Mistral Small 3",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 167
+  },
+  {
+    "id": "qwen/qwen3-coder-plus",
+    "name": "Qwen: Qwen3 Coder Plus",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 168
+  },
+  {
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.15,
+    "output_preis": 0.6,
+    "latenz_ms": 168
+  },
+  {
+    "id": "google/gemini-2.5-pro",
+    "name": "Google: Gemini 2.5 Pro",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.25,
+    "output_preis": 10.0,
+    "latenz_ms": 169
+  },
+  {
+    "id": "openai/gpt-4.1",
+    "name": "OpenAI: GPT-4.1",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 8.0,
+    "latenz_ms": 169
+  },
+  {
+    "id": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 169
+  },
+  {
+    "id": "google/gemini-2.5-pro-preview",
+    "name": "Google: Gemini 2.5 Pro Preview 06-05",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.25,
+    "output_preis": 10.0,
+    "latenz_ms": 170
+  },
+  {
+    "id": "openai/gpt-4o-mini-search-preview",
+    "name": "OpenAI: GPT-4o-mini Search Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.15,
+    "output_preis": 0.6,
+    "latenz_ms": 170
+  },
+  {
+    "id": "qwen/qwen3-vl-8b-thinking",
+    "name": "Qwen: Qwen3 VL 8B Thinking",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 171
+  },
+  {
+    "id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 171
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b",
+    "name": "Qwen: Qwen3 30B A3B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 171
+  },
+  {
+    "id": "mistralai/voxtral-small-24b-2507",
+    "name": "Mistral: Voxtral Small 24B 2507",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 173
+  },
+  {
+    "id": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 174
+  },
+  {
+    "id": "qwen/qwen3-vl-32b-instruct",
+    "name": "Qwen: Qwen3 VL 32B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 175
+  },
+  {
+    "id": "qwen/qwen3-vl-30b-a3b-thinking",
+    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 175
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 176
+  },
+  {
+    "id": "qwen/qwen3-next-80b-a3b-instruct",
+    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 177
+  },
+  {
+    "id": "google/gemini-2.5-flash",
+    "name": "Google: Gemini 2.5 Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.3,
+    "output_preis": 2.5,
+    "latenz_ms": 178
+  },
+  {
+    "id": "qwen/qwen-plus",
+    "name": "Qwen: Qwen-Plus",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 179
+  },
+  {
+    "id": "mistralai/mistral-large-2407",
+    "name": "Mistral Large 2407",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 182
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 185
+  },
+  {
+    "id": "mistralai/mistral-saba",
+    "name": "Mistral: Saba",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 185
+  },
+  {
+    "id": "mistralai/mixtral-8x22b-instruct",
+    "name": "Mistral: Mixtral 8x22B Instruct",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 185
+  },
+  {
+    "id": "meta-llama/llama-4-maverick",
+    "name": "Meta: Llama 4 Maverick",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 186
+  },
+  {
+    "id": "openai/gpt-4-turbo-preview",
+    "name": "OpenAI: GPT-4 Turbo Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 10.0,
+    "output_preis": 30.0,
+    "latenz_ms": 186
+  },
+  {
+    "id": "qwen/qwen-plus-2025-07-28:thinking",
+    "name": "Qwen: Qwen Plus 0728 (thinking)",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 188
   },
   {
     "id": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -853,15 +677,23 @@
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 475
+    "latenz_ms": 188
   },
   {
-    "id": "google/gemini-3.6-flash",
-    "name": "Google: Gemini 3.6 Flash",
+    "id": "openai/gpt-4.1-mini",
+    "name": "OpenAI: GPT-4.1 Mini",
     "kategorie": "bezahlmodell",
-    "input_preis": 1.5,
-    "output_preis": 7.5,
-    "latenz_ms": 999
+    "input_preis": 0.4,
+    "output_preis": 1.6,
+    "latenz_ms": 193
+  },
+  {
+    "id": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 976
   },
   {
     "id": "google/gemini-3.5-flash-lite",
@@ -904,27 +736,11 @@
     "latenz_ms": 999
   },
   {
-    "id": "qwen/qwen3.7-max",
-    "name": "Qwen: Qwen3.7 Max",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 999
-  },
-  {
     "id": "google/gemini-3.5-flash",
     "name": "Google: Gemini 3.5 Flash",
     "kategorie": "bezahlmodell",
     "input_preis": 1.5,
     "output_preis": 9.0,
-    "latenz_ms": 999
-  },
-  {
-    "id": "google/gemini-3.1-flash-lite",
-    "name": "Google: Gemini 3.1 Flash Lite",
-    "kategorie": "bezahlmodell",
-    "input_preis": 0.25,
-    "output_preis": 1.5,
     "latenz_ms": 999
   },
   {
@@ -944,14 +760,6 @@
     "latenz_ms": 999
   },
   {
-    "id": "~google/gemini-flash-latest",
-    "name": "Google Gemini Flash Latest",
-    "kategorie": "bezahlmodell",
-    "input_preis": 1.5,
-    "output_preis": 7.5,
-    "latenz_ms": 999
-  },
-  {
     "id": "qwen/qwen3.5-plus-20260420",
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "kategorie": "kostenlos",
@@ -962,14 +770,6 @@
   {
     "id": "qwen/qwen3.6-flash",
     "name": "Qwen: Qwen3.6 Flash",
-    "kategorie": "kostenlos",
-    "input_preis": 0.0,
-    "output_preis": 0.0,
-    "latenz_ms": 999
-  },
-  {
-    "id": "qwen/qwen3.6-35b-a3b",
-    "name": "Qwen: Qwen3.6 35B A3B",
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
@@ -1005,6 +805,206 @@
     "kategorie": "kostenlos",
     "input_preis": 0.0,
     "output_preis": 0.0,
-    "latenz_ms": 2366
+    "latenz_ms": 999
+  },
+  {
+    "id": "qwen/qwen3.6-plus",
+    "name": "Qwen: Qwen3.6 Plus",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "mistralai/mistral-small-2603",
+    "name": "Mistral: Mistral Small 4",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "google/gemini-3.1-flash-lite-preview",
+    "name": "Google: Gemini 3.1 Flash Lite Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.25,
+    "output_preis": 1.5,
+    "latenz_ms": 999
+  },
+  {
+    "id": "google/gemini-3.1-flash-image-preview",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.5,
+    "output_preis": 3.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "qwen/qwen3.5-35b-a3b",
+    "name": "Qwen: Qwen3.5-35B-A3B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "qwen/qwen3.5-122b-a10b",
+    "name": "Qwen: Qwen3.5-122B-A10B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "qwen/qwen3.5-flash-02-23",
+    "name": "Qwen: Qwen3.5-Flash",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "google/gemini-3.1-pro-preview",
+    "name": "Google: Gemini 3.1 Pro Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 12.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "qwen/qwen3.5-plus-02-15",
+    "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "qwen/qwen3.5-397b-a17b",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "mistralai/ministral-14b-2512",
+    "name": "Mistral: Ministral 3 14B 2512",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "mistralai/ministral-8b-2512",
+    "name": "Mistral: Ministral 3 8B 2512",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "mistralai/mistral-large-2512",
+    "name": "Mistral: Mistral Large 3 2512",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 999
+  },
+  {
+    "id": "google/gemini-3.1-pro-preview-customtools",
+    "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 12.0,
+    "latenz_ms": 1047
+  },
+  {
+    "id": "mistralai/devstral-2512",
+    "name": "Mistral: Devstral 2 2512",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 1165
+  },
+  {
+    "id": "google/gemini-3-flash-preview",
+    "name": "Google: Gemini 3 Flash Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.5,
+    "output_preis": 3.0,
+    "latenz_ms": 1209
+  },
+  {
+    "id": "qwen/qwen3-max-thinking",
+    "name": "Qwen: Qwen3 Max Thinking",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 1459
+  },
+  {
+    "id": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 1621
+  },
+  {
+    "id": "google/gemini-3.1-flash-lite",
+    "name": "Google: Gemini 3.1 Flash Lite",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.25,
+    "output_preis": 1.5,
+    "latenz_ms": 1753
+  },
+  {
+    "id": "qwen/qwen3.7-max",
+    "name": "Qwen: Qwen3.7 Max",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 1827
+  },
+  {
+    "id": "google/gemini-3.6-flash",
+    "name": "Google: Gemini 3.6 Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.5,
+    "output_preis": 7.5,
+    "latenz_ms": 1952
+  },
+  {
+    "id": "qwen/qwen3-coder-next",
+    "name": "Qwen: Qwen3 Coder Next",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 2020
+  },
+  {
+    "id": "mistralai/ministral-3b-2512",
+    "name": "Mistral: Ministral 3 3B 2512",
+    "kategorie": "kostenlos",
+    "input_preis": 0.0,
+    "output_preis": 0.0,
+    "latenz_ms": 2679
+  },
+  {
+    "id": "~google/gemini-flash-latest",
+    "name": "Google Gemini Flash Latest",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.5,
+    "output_preis": 7.5,
+    "latenz_ms": 5048
   }
 ]
