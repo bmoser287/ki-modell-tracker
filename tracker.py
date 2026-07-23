@@ -2,15 +2,13 @@ import json
 import time
 import requests
 
-# 1. Öffentliche OpenRouter API abfragen (Liefert tagesaktuelle Modell- & Preisdaten)
 API_URL = "https://openrouter.ai/api/v1/models"
 
 print("Hole tagesaktuelle KI-Modellliste von OpenRouter...")
 response = requests.get(API_URL, timeout=10)
 data = response.json().get("data", [])
 
-# Liste relevanter Frontier-Anbieter/Modellfamilien, die wir im Dashboard haben wollen
-SEARCH_KEYWORDS = ["gpt-4", "claude-3", "gemini", "deepseek", "llama-3", "qwen"]
+SEARCH_KEYWORDS = ["gpt-4", "claude-3", "gemini", "deepseek", "llama", "qwen", "mistral"]
 
 ergebnisse = []
 
@@ -19,20 +17,18 @@ for model in data:
     model_name = model.get("name", "")
     pricing = model.get("pricing", {})
     
-    # Prpfen, ob das Modell zu den relevanten Frontier-Modellen gehört
     if any(keyword in model_id for keyword in SEARCH_KEYWORDS):
-        
-        # Preise pro Token auslesen und auf 1 Mio. Tokens umrechnen ($ / 1M Tokens)
         try:
             prompt_price = float(pricing.get("prompt", 0)) * 1_000_000
             completion_price = float(pricing.get("completion", 0)) * 1_000_000
         except (ValueError, TypeError):
             prompt_price, completion_price = 0.0, 0.0
 
-        # Kategorisieren: Kostenlos vs. Bezahlmodell
-        kategorie = "kostenlos" if (prompt_price == 0 and completion_price == 0) else "bezahlmodell"
+        # Erkennung von kostenlosen Modellen (Preis ist 0 ODER ID enthält ':free')
+        is_free = (prompt_price == 0 and completion_price == 0) or ":free" in model_id
+        kategorie = "kostenlos" if is_free else "bezahlmodell"
 
-        # Latenz-Messung (Reaktionszeit der Schnittstelle simulieren/prüfen)
+        # Latenz-Messung
         start = time.time()
         try:
             requests.get("https://httpbin.org/delay/0.1", timeout=3)
@@ -49,12 +45,9 @@ for model in data:
             "latenz_ms": latenz_ms
         })
 
-# Nach Schnelligkeit (Latenz) aufsteigend sortieren
 ergebnisse.sort(key=lambda x: x["latenz_ms"])
 
-# Ergebnisse begrenzen (z. B. die besten/bekanntesten Ergebnisse speichern)
-# Wir speichern das ganze Paket ab, damit die Webseite dynamisch darauf zugreifen kann
 with open("modelle.json", "w", encoding="utf-8") as f:
     json.dump(ergebnisse, f, ensure_ascii=False, indent=2)
 
-print(f"Erfolgreich {len(ergebnisse)} Modelle dynamisch geladen und in modelle.json gespeichert!")
+print(f"Erfolgreich {len(ergebnisse)} Modelle verarbeitet!")
