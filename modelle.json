@@ -1,0 +1,818 @@
+[
+  {
+    "id": "google/gemini-3.1-flash-lite-preview",
+    "name": "Google: Gemini 3.1 Flash Lite Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.25,
+    "output_preis": 1.5,
+    "latenz_ms": 131
+  },
+  {
+    "id": "qwen/qwen3.5-flash-02-23",
+    "name": "Qwen: Qwen3.5-Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.065,
+    "output_preis": 0.26,
+    "latenz_ms": 131
+  },
+  {
+    "id": "qwen/qwen3-next-80b-a3b-instruct",
+    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.15,
+    "output_preis": 1.2,
+    "latenz_ms": 131
+  },
+  {
+    "id": "openai/gpt-4.1",
+    "name": "OpenAI: GPT-4.1",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 8.0,
+    "latenz_ms": 131
+  },
+  {
+    "id": "openai/gpt-4-turbo",
+    "name": "OpenAI: GPT-4 Turbo",
+    "kategorie": "bezahlmodell",
+    "input_preis": 10.0,
+    "output_preis": 30.0,
+    "latenz_ms": 131
+  },
+  {
+    "id": "qwen/qwen-plus-2025-07-28:thinking",
+    "name": "Qwen: Qwen Plus 0728 (thinking)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.26,
+    "output_preis": 0.78,
+    "latenz_ms": 132
+  },
+  {
+    "id": "meta-llama/llama-3.2-3b-instruct",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.05,
+    "output_preis": 0.33,
+    "latenz_ms": 133
+  },
+  {
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.15,
+    "output_preis": 0.6,
+    "latenz_ms": 133
+  },
+  {
+    "id": "qwen/qwen3-coder-plus",
+    "name": "Qwen: Qwen3 Coder Plus",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.65,
+    "output_preis": 3.25,
+    "latenz_ms": 134
+  },
+  {
+    "id": "qwen/qwen3-coder",
+    "name": "Qwen: Qwen3 Coder 480B A35B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.3,
+    "output_preis": 1.0,
+    "latenz_ms": 137
+  },
+  {
+    "id": "qwen/qwen-2.5-72b-instruct",
+    "name": "Qwen2.5 72B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.36,
+    "output_preis": 0.4,
+    "latenz_ms": 138
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b-thinking-2507",
+    "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.3,
+    "output_preis": 3.0,
+    "latenz_ms": 139
+  },
+  {
+    "id": "openai/gpt-4o",
+    "name": "OpenAI: GPT-4o",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.5,
+    "output_preis": 10.0,
+    "latenz_ms": 139
+  },
+  {
+    "id": "qwen/qwen3-next-80b-a3b-thinking",
+    "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.098,
+    "output_preis": 0.78,
+    "latenz_ms": 141
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b-instruct-2507",
+    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.1,
+    "output_preis": 0.3,
+    "latenz_ms": 142
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3-0324",
+    "name": "DeepSeek: DeepSeek V3 0324",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.27,
+    "output_preis": 1.12,
+    "latenz_ms": 142
+  },
+  {
+    "id": "qwen/qwen3-14b",
+    "name": "Qwen: Qwen3 14B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.227,
+    "output_preis": 0.91,
+    "latenz_ms": 143
+  },
+  {
+    "id": "qwen/qwen3.7-max",
+    "name": "Qwen: Qwen3.7 Max",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.475,
+    "output_preis": 4.425,
+    "latenz_ms": 148
+  },
+  {
+    "id": "google/gemini-3-pro-image-preview",
+    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 12.0,
+    "latenz_ms": 148
+  },
+  {
+    "id": "google/gemini-3.1-flash-image",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.5,
+    "output_preis": 3.0,
+    "latenz_ms": 149
+  },
+  {
+    "id": "google/gemini-3.1-flash-lite-image",
+    "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.25,
+    "output_preis": 1.5,
+    "latenz_ms": 153
+  },
+  {
+    "id": "~google/gemini-pro-latest",
+    "name": "Google Gemini Pro Latest",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 12.0,
+    "latenz_ms": 154
+  },
+  {
+    "id": "google/gemini-2.5-flash-image",
+    "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.3,
+    "output_preis": 2.5,
+    "latenz_ms": 155
+  },
+  {
+    "id": "qwen/qwen-plus-2025-07-28",
+    "name": "Qwen: Qwen Plus 0728",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.26,
+    "output_preis": 0.78,
+    "latenz_ms": 155
+  },
+  {
+    "id": "aion-labs/aion-rp-llama-3.1-8b",
+    "name": "AionLabs: Aion-RP 1.0 (8B)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.8,
+    "output_preis": 1.6,
+    "latenz_ms": 155
+  },
+  {
+    "id": "deepseek/deepseek-chat",
+    "name": "DeepSeek: DeepSeek V3",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.2,
+    "output_preis": 0.8,
+    "latenz_ms": 155
+  },
+  {
+    "id": "qwen/qwen3.6-35b-a3b",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.14,
+    "output_preis": 1.0,
+    "latenz_ms": 156
+  },
+  {
+    "id": "qwen/qwen3.5-122b-a10b",
+    "name": "Qwen: Qwen3.5-122B-A10B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.26,
+    "output_preis": 2.08,
+    "latenz_ms": 156
+  },
+  {
+    "id": "google/gemini-3-flash-preview",
+    "name": "Google: Gemini 3 Flash Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.5,
+    "output_preis": 3.0,
+    "latenz_ms": 156
+  },
+  {
+    "id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.21,
+    "output_preis": 1.9,
+    "latenz_ms": 156
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3.1",
+    "name": "DeepSeek: DeepSeek V3.1",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.25,
+    "output_preis": 0.95,
+    "latenz_ms": 156
+  },
+  {
+    "id": "google/gemini-2.5-flash-lite",
+    "name": "Google: Gemini 2.5 Flash Lite",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.1,
+    "output_preis": 0.4,
+    "latenz_ms": 156
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528",
+    "name": "DeepSeek: R1 0528",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.5,
+    "output_preis": 2.15,
+    "latenz_ms": 156
+  },
+  {
+    "id": "google/gemini-2.5-pro-preview-05-06",
+    "name": "Google: Gemini 2.5 Pro Preview 05-06",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.25,
+    "output_preis": 10.0,
+    "latenz_ms": 156
+  },
+  {
+    "id": "qwen/qwen3.5-plus-02-15",
+    "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.26,
+    "output_preis": 1.56,
+    "latenz_ms": 157
+  },
+  {
+    "id": "qwen/qwen3-8b",
+    "name": "Qwen: Qwen3 8B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.117,
+    "output_preis": 0.455,
+    "latenz_ms": 157
+  },
+  {
+    "id": "openai/gpt-4.1-nano",
+    "name": "OpenAI: GPT-4.1 Nano",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.1,
+    "output_preis": 0.4,
+    "latenz_ms": 157
+  },
+  {
+    "id": "openai/gpt-4o-search-preview",
+    "name": "OpenAI: GPT-4o Search Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.5,
+    "output_preis": 10.0,
+    "latenz_ms": 157
+  },
+  {
+    "id": "openai/gpt-4o-2024-05-13",
+    "name": "OpenAI: GPT-4o (2024-05-13)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 5.0,
+    "output_preis": 15.0,
+    "latenz_ms": 157
+  },
+  {
+    "id": "qwen/qwen3.6-max-preview",
+    "name": "Qwen: Qwen3.6 Max Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.04,
+    "output_preis": 6.24,
+    "latenz_ms": 158
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b",
+    "name": "Qwen: Qwen3 235B A22B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.455,
+    "output_preis": 1.82,
+    "latenz_ms": 158
+  },
+  {
+    "id": "google/gemini-3-pro-image",
+    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 12.0,
+    "latenz_ms": 159
+  },
+  {
+    "id": "qwen/qwen3.5-9b",
+    "name": "Qwen: Qwen3.5-9B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.1,
+    "output_preis": 0.15,
+    "latenz_ms": 159
+  },
+  {
+    "id": "qwen/qwen3.5-35b-a3b",
+    "name": "Qwen: Qwen3.5-35B-A3B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.14,
+    "output_preis": 1.0,
+    "latenz_ms": 161
+  },
+  {
+    "id": "qwen/qwen3-vl-30b-a3b-thinking",
+    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.13,
+    "output_preis": 1.56,
+    "latenz_ms": 161
+  },
+  {
+    "id": "google/gemini-3.1-flash-image-preview",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.5,
+    "output_preis": 3.0,
+    "latenz_ms": 163
+  },
+  {
+    "id": "qwen/qwen3-max",
+    "name": "Qwen: Qwen3 Max",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.78,
+    "output_preis": 3.9,
+    "latenz_ms": 164
+  },
+  {
+    "id": "google/gemini-2.5-pro",
+    "name": "Google: Gemini 2.5 Pro",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.25,
+    "output_preis": 10.0,
+    "latenz_ms": 164
+  },
+  {
+    "id": "google/gemini-2.5-flash",
+    "name": "Google: Gemini 2.5 Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.3,
+    "output_preis": 2.5,
+    "latenz_ms": 165
+  },
+  {
+    "id": "deepseek/deepseek-r1-distill-llama-70b",
+    "name": "DeepSeek: R1 Distill Llama 70B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.8,
+    "output_preis": 0.8,
+    "latenz_ms": 165
+  },
+  {
+    "id": "qwen/qwen3-max-thinking",
+    "name": "Qwen: Qwen3 Max Thinking",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.78,
+    "output_preis": 3.9,
+    "latenz_ms": 166
+  },
+  {
+    "id": "qwen/qwen3-vl-235b-a22b-thinking",
+    "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.26,
+    "output_preis": 2.6,
+    "latenz_ms": 166
+  },
+  {
+    "id": "qwen/qwen-plus",
+    "name": "Qwen: Qwen-Plus",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.26,
+    "output_preis": 0.78,
+    "latenz_ms": 166
+  },
+  {
+    "id": "google/gemini-3.1-pro-preview-customtools",
+    "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 12.0,
+    "latenz_ms": 167
+  },
+  {
+    "id": "qwen/qwen3.6-27b",
+    "name": "Qwen: Qwen3.6 27B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.6,
+    "output_preis": 3.6,
+    "latenz_ms": 168
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b",
+    "name": "Qwen: Qwen3 30B A3B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.13,
+    "output_preis": 0.52,
+    "latenz_ms": 168
+  },
+  {
+    "id": "deepseek/deepseek-v3.1-terminus",
+    "name": "DeepSeek: DeepSeek V3.1 Terminus",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.27,
+    "output_preis": 1.0,
+    "latenz_ms": 169
+  },
+  {
+    "id": "qwen/qwen2.5-vl-72b-instruct",
+    "name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.8,
+    "output_preis": 1.0,
+    "latenz_ms": 169
+  },
+  {
+    "id": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek: DeepSeek V4 Pro",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.435,
+    "output_preis": 0.87,
+    "latenz_ms": 170
+  },
+  {
+    "id": "qwen/qwen3-vl-32b-instruct",
+    "name": "Qwen: Qwen3 VL 32B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.104,
+    "output_preis": 0.416,
+    "latenz_ms": 171
+  },
+  {
+    "id": "qwen/qwen3-vl-8b-instruct",
+    "name": "Qwen: Qwen3 VL 8B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.117,
+    "output_preis": 0.455,
+    "latenz_ms": 171
+  },
+  {
+    "id": "qwen/qwen3-coder-next",
+    "name": "Qwen: Qwen3 Coder Next",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.11,
+    "output_preis": 0.8,
+    "latenz_ms": 172
+  },
+  {
+    "id": "qwen/qwen3.6-flash",
+    "name": "Qwen: Qwen3.6 Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.188,
+    "output_preis": 1.125,
+    "latenz_ms": 173
+  },
+  {
+    "id": "openai/gpt-4o-mini",
+    "name": "OpenAI: GPT-4o-mini",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.15,
+    "output_preis": 0.6,
+    "latenz_ms": 173
+  },
+  {
+    "id": "nousresearch/hermes-3-llama-3.1-405b",
+    "name": "Nous: Hermes 3 405B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.0,
+    "output_preis": 1.0,
+    "latenz_ms": 174
+  },
+  {
+    "id": "qwen/qwen3-32b",
+    "name": "Qwen: Qwen3 32B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.08,
+    "output_preis": 0.28,
+    "latenz_ms": 176
+  },
+  {
+    "id": "nousresearch/hermes-3-llama-3.1-70b",
+    "name": "Nous: Hermes 3 70B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.7,
+    "output_preis": 0.7,
+    "latenz_ms": 177
+  },
+  {
+    "id": "anthropic/claude-3-haiku",
+    "name": "Anthropic: Claude 3 Haiku",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.25,
+    "output_preis": 1.25,
+    "latenz_ms": 177
+  },
+  {
+    "id": "meta-llama/llama-3.2-1b-instruct",
+    "name": "Meta: Llama 3.2 1B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.027,
+    "output_preis": 0.201,
+    "latenz_ms": 180
+  },
+  {
+    "id": "openai/gpt-4o-2024-08-06",
+    "name": "OpenAI: GPT-4o (2024-08-06)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.5,
+    "output_preis": 10.0,
+    "latenz_ms": 180
+  },
+  {
+    "id": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.4,
+    "output_preis": 0.4,
+    "latenz_ms": 180
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.098,
+    "output_preis": 0.196,
+    "latenz_ms": 181
+  },
+  {
+    "id": "qwen/qwen3.5-27b",
+    "name": "Qwen: Qwen3.5-27B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.26,
+    "output_preis": 2.6,
+    "latenz_ms": 181
+  },
+  {
+    "id": "qwen/qwen3.5-397b-a17b",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.39,
+    "output_preis": 2.34,
+    "latenz_ms": 182
+  },
+  {
+    "id": "google/gemini-2.5-pro-preview",
+    "name": "Google: Gemini 2.5 Pro Preview 06-05",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.25,
+    "output_preis": 10.0,
+    "latenz_ms": 182
+  },
+  {
+    "id": "openai/gpt-4o-mini-search-preview",
+    "name": "OpenAI: GPT-4o-mini Search Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.15,
+    "output_preis": 0.6,
+    "latenz_ms": 182
+  },
+  {
+    "id": "google/gemini-3.1-flash-lite",
+    "name": "Google: Gemini 3.1 Flash Lite",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.25,
+    "output_preis": 1.5,
+    "latenz_ms": 183
+  },
+  {
+    "id": "qwen/qwen3-coder-flash",
+    "name": "Qwen: Qwen3 Coder Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.195,
+    "output_preis": 0.975,
+    "latenz_ms": 183
+  },
+  {
+    "id": "openai/gpt-4.1-mini",
+    "name": "OpenAI: GPT-4.1 Mini",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.4,
+    "output_preis": 1.6,
+    "latenz_ms": 183
+  },
+  {
+    "id": "openai/gpt-4o-2024-11-20",
+    "name": "OpenAI: GPT-4o (2024-11-20)",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.5,
+    "output_preis": 10.0,
+    "latenz_ms": 184
+  },
+  {
+    "id": "deepseek/deepseek-r1",
+    "name": "DeepSeek: R1",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.7,
+    "output_preis": 2.5,
+    "latenz_ms": 185
+  },
+  {
+    "id": "qwen/qwen3-30b-a3b-thinking-2507",
+    "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.13,
+    "output_preis": 1.56,
+    "latenz_ms": 186
+  },
+  {
+    "id": "~google/gemini-flash-latest",
+    "name": "Google Gemini Flash Latest",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.5,
+    "output_preis": 7.5,
+    "latenz_ms": 187
+  },
+  {
+    "id": "qwen/qwen3.6-plus",
+    "name": "Qwen: Qwen3.6 Plus",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.325,
+    "output_preis": 1.95,
+    "latenz_ms": 187
+  },
+  {
+    "id": "qwen/qwen3-coder-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.07,
+    "output_preis": 0.27,
+    "latenz_ms": 187
+  },
+  {
+    "id": "deepseek/deepseek-v3.2-exp",
+    "name": "DeepSeek: DeepSeek V3.2 Exp",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.27,
+    "output_preis": 0.41,
+    "latenz_ms": 190
+  },
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.13,
+    "output_preis": 0.4,
+    "latenz_ms": 190
+  },
+  {
+    "id": "google/gemini-3.5-flash-lite",
+    "name": "Google: Gemini 3.5 Flash Lite",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.3,
+    "output_preis": 2.5,
+    "latenz_ms": 191
+  },
+  {
+    "id": "qwen/qwen3-vl-8b-thinking",
+    "name": "Qwen: Qwen3 VL 8B Thinking",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.117,
+    "output_preis": 1.365,
+    "latenz_ms": 194
+  },
+  {
+    "id": "google/gemini-3.1-pro-preview",
+    "name": "Google: Gemini 3.1 Pro Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 2.0,
+    "output_preis": 12.0,
+    "latenz_ms": 196
+  },
+  {
+    "id": "qwen/qwen3-vl-30b-a3b-instruct",
+    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.15,
+    "output_preis": 0.6,
+    "latenz_ms": 196
+  },
+  {
+    "id": "meta-llama/llama-3.1-8b-instruct",
+    "name": "Meta: Llama 3.1 8B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.05,
+    "output_preis": 0.08,
+    "latenz_ms": 197
+  },
+  {
+    "id": "deepseek/deepseek-v3.2",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.269,
+    "output_preis": 0.4,
+    "latenz_ms": 199
+  },
+  {
+    "id": "qwen/qwen3.7-plus",
+    "name": "Qwen: Qwen3.7 Plus",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.32,
+    "output_preis": 1.28,
+    "latenz_ms": 200
+  },
+  {
+    "id": "openai/gpt-4",
+    "name": "OpenAI: GPT-4",
+    "kategorie": "bezahlmodell",
+    "input_preis": 30.0,
+    "output_preis": 60.0,
+    "latenz_ms": 205
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b-2507",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.09,
+    "output_preis": 0.55,
+    "latenz_ms": 206
+  },
+  {
+    "id": "qwen/qwen-2.5-coder-32b-instruct",
+    "name": "Qwen2.5 Coder 32B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.66,
+    "output_preis": 1.0,
+    "latenz_ms": 209
+  },
+  {
+    "id": "qwen/qwen-2.5-7b-instruct",
+    "name": "Qwen: Qwen2.5 7B Instruct",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.04,
+    "output_preis": 0.1,
+    "latenz_ms": 211
+  },
+  {
+    "id": "openai/gpt-4-turbo-preview",
+    "name": "OpenAI: GPT-4 Turbo Preview",
+    "kategorie": "bezahlmodell",
+    "input_preis": 10.0,
+    "output_preis": 30.0,
+    "latenz_ms": 215
+  },
+  {
+    "id": "google/gemini-3.6-flash",
+    "name": "Google: Gemini 3.6 Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.5,
+    "output_preis": 7.5,
+    "latenz_ms": 222
+  },
+  {
+    "id": "google/gemini-3.5-flash",
+    "name": "Google: Gemini 3.5 Flash",
+    "kategorie": "bezahlmodell",
+    "input_preis": 1.5,
+    "output_preis": 9.0,
+    "latenz_ms": 224
+  },
+  {
+    "id": "qwen/qwen3.5-plus-20260420",
+    "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "kategorie": "bezahlmodell",
+    "input_preis": 0.3,
+    "output_preis": 1.8,
+    "latenz_ms": 228
+  }
+]
