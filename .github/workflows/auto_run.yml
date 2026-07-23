@@ -1,0 +1,39 @@
+name: KI Modell Tracker Cron
+
+on:
+  schedule:
+    # Läuft automatisch alle 6 Stunden (Generiert/Validiert via crontab.guru)
+    - cron: '0 */6 * * *'
+  # Erlaubt uns, den Workflow jederzeit manuell per Button zu starten
+  workflow_dispatch:
+
+jobs:
+  run-tracker:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # WICHTIG: Schreibrechte, damit der Bot die modelle.json speichern darf
+
+    steps:
+      - name: Code aus dem Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python-Umgebung einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Benötigte Bibliotheken installieren
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Python-Skript ausführen (Hole neueste Modelle & Preise)
+        run: python tracker.py
+
+      - name: Geänderte modelle.json automatisch ins Repository committen
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git add modelle.json
+          git commit -m "Auto-Update KI-Modelle: $(date)" || exit 0
+          git push
